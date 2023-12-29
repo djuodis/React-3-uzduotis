@@ -1,0 +1,54 @@
+header {
+    height: 300px;
+    position: relative;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .container {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+header button {
+    margin-top: 15px;
+    width: 120px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background: #7aa5a2;
+    color: white;
+}
+
+header .cover {
+    background: url("../images/header-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+header .cover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+}
+
