@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
 import { Main } from "./components/Main"
+import image from "./images/women.jpg"
 import './App.css'
 
 const headerInfo = [
@@ -12,7 +13,7 @@ const mainInfo = [
   {
     title: "Portfolio",
     subTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima ullam fugit dicta, voluptates odit voluptatum veritatis optio fugiat officia magni. Ullam aliquam dolores dolore animi, numquam quasi distinctio fugiat explicabo?",
-    images: "/src/images/women.jpg",
+    images: image,
     descriptor:"Ipsum Feuzgiat"
     
   }
