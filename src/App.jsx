@@ -12,7 +12,7 @@ const mainInfo = [
   {
     title: "Portfolio",
     subTitle: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima ullam fugit dicta, voluptates odit voluptatum veritatis optio fugiat officia magni. Ullam aliquam dolores dolore animi, numquam quasi distinctio fugiat explicabo?",
-    images: "/src/images/women.jpg",
+    images: "women.jpg",
     descriptor:"Ipsum Feuzgiat"
     
   }
